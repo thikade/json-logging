@@ -21,3 +21,8 @@ java -jar json-logger/target/final/json-logger.jar
 
 ## Test
 Use `export LOG4J_CONFIGURATION_FILE=json-logger/src/main/resources/log4j2.xml` to quickly test changes to log4j config!
+
+## Image Build
+```
+docker build -t json-logger:latest  .
+```
