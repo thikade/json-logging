@@ -26,3 +26,6 @@ Use `export LOG4J_CONFIGURATION_FILE=json-logger/src/main/resources/log4j2.xml` 
 ```
 docker build -t json-logger:latest  .
 ```
+
+### Configurations
+Uncomment `ENV LOG4J_CONFIGURATION_FILE` in Dockerfile to switch back to plain-text, multi-line exception stacktrace logging!
